@@ -1,0 +1,13 @@
+.input {
+	width: 100%;
+	outline: none;
+	border: none;
+	border: 1px var(--primary-color) solid;
+	color: var(--primary-color);
+}
+
+.input::placeholder {
+	color: #ccc;
+	font-style: italic;
+	padding-left: 10px;
+}

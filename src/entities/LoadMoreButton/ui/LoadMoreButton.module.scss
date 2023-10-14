@@ -1,0 +1,16 @@
+.load_more {
+	margin: 5px;
+	border: 1px solid var(--primary-color);
+	border-radius: 4px;
+	background-color: transparent;
+	color: var(--primary-color);
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.load_more:hover {
+	border: 1px solid var(--primary-color);
+	background-color: white;
+}

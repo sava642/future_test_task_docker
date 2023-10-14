@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES5", // Уровень языка JavaScript, который будет использоваться для компиляции "es5"
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ], // Библиотеки, доступные для использования
+    "allowJs": true, // Разрешает использовать файлы .js в проекте
+    "skipLibCheck": true, // Пропускает проверку библиотек
+    "esModuleInterop": true, // Обеспечивает совместимость ES Modules
+    "allowSyntheticDefaultImports": true, // Разрешает импорты синтетических модулей по умолчанию
+    "strict": true, // Включает строгий режим TypeScript
+    "forceConsistentCasingInFileNames": true, // Обязательное соблюдение структуры имен файлов
+    "noFallthroughCasesInSwitch": true, // Запрещает "проваливание" внутри блоков switch
+    "module": "ESNext", // Формат модулей, который будет использоваться "esnext"
+    "moduleResolution": "node", // Режим разрешения модулей
+    "resolveJsonModule": true, // Разрешение импорта JSON файлов
+    "isolatedModules": true, // Включает внутренний режим изоляции модулей
+    "noEmit": true, // Отключает вывод (компиляция) файлов JavaScript
+    "jsx": "react-jsx", // Тип синтаксиса для JSX
+    "baseUrl": "src" // Базовый каталог для разрешения модулей
+  },
+  "include": [
+    "src"
+  ]
+}

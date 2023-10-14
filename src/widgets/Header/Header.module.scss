@@ -1,0 +1,60 @@
+header {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	background-image: url('../../shared/assets//images/bookpages.jpg');
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: var(--text-color);
+	height: 200px;
+}
+
+.block_sorting {
+	display: flex;
+	gap: 20px;
+}
+
+.block_categories {
+	display: flex;
+	gap: 10px;
+}
+
+.block_sortBy {
+	display: flex;
+	gap: 10px;
+}
+
+@media (max-width: 410px) {
+	.block_categories {
+		flex-direction: column;
+		gap: 2px;
+	}
+
+	.block_sortBy {
+		flex-direction: column;
+		gap: 2px;
+	}
+}
+
+.search_input {
+	width: 300px;
+	background-color: white;
+	position: relative;
+}
+
+.search_svg {
+	position: absolute;
+	right: 2px;
+	top: 1.5px;
+	cursor: pointer;
+}
+
+@media (max-width: 390px) {
+	.search_input {
+		width: 92%;
+	}
+}
